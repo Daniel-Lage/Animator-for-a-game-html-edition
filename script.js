@@ -83,7 +83,3 @@ function draw_rect(rect) {
   canvas = document.getElementById("canvas");
   canvas.innerHTML += `<rect id = "${rect_id}" x="${rect[0]}" y="${rect[1]}" width="${rect[2]}" height="${rect[3]}" stroke="black" stroke-width="2" fill="none"/>`;
 }
-
-function drawing() {
-  console.log("ta indo");
-}
