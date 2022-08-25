@@ -6,15 +6,14 @@
     <title>MySite</title>
   </head>
   <body>
+    <input id="loader" type="file" accept="image/*" onchange="load(event)" />
+    <button onclick="save()">Salvar</button>
     <svg
       onmousemove="mousemove(event)"
       onmousedown="mousedown(event)"
       onmouseup="mouseup(event)"
       onmouseout="mouseout(event)"
       id="canvas"
-      width="100%"
-      height="100%"
-      style="background-color: bisque"
     ></svg>
   </body>
 </html>
